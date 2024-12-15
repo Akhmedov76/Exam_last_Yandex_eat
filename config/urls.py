@@ -35,8 +35,8 @@ schema_view = get_schema_view(
                     "[http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/). "
                     "For this sample, you can use the api key `special-key` to test the authorization filters.",
         terms_of_service="https://www.google.com/policies/terms/",
-        contact=openapi.Contact(email="alamovasad@gmail.com", url="https://alamovasadbek.vercel.app/",
-                                name="Alamov Asadbek"),
+        contact=openapi.Contact(email="#", url="#",
+                                name="#"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
