@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'app_deliveries',
     'app_products',
     'app_users',
-
+    'app_admin',
 ]
 
 MIDDLEWARE = [
@@ -142,6 +142,8 @@ REST_FRAMEWORK = {
         'rest_framework_csv.renderers.CSVRenderer',
         'rest_framework_yaml.renderers.YAMLRenderer',
     ],
+
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.openapi.AutoSchema',
 
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication',
